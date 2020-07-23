@@ -7,4 +7,5 @@ if [ $CUSTOM_GH_ACCESS_KEY == "vcinc" ]; then
 else
   echo "✗ could not accept the variable";
   exit 1;
+fi
 
