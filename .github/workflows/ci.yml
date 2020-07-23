@@ -40,7 +40,7 @@ jobs:
       run: |
         echo "refs: ${{ github.ref }}"
     - name: Print Envs
-      run: echo "Result => ${{ env.END_RESULT }} CUSTOM ACCESS_KEY => ${{ CUSTOM_GH_ACCESS_KEY }}"
+      run: echo "END_RESULT => ${{ env.END_RESULT }} CUSTOM ACCESS KEY => ${{ env.CUSTOM_GH_ACCESS_KEY }}"
     - name: Run Script
       run: |
         echo "Print Envs from a shell script"
